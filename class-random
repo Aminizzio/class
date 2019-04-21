@@ -1,0 +1,20 @@
+// Try edit msg
+var msg = 'Hello Class'
+var icon = ' <i class="fa fa-smile-o"></i>'
+
+console.log(msg)
+
+$('#msg').html(msg + icon)
+
+
+let amin = ["Amin","Ali","Beck","Alex","Zelda","Azadeh","Cleope","Hadi","Hayedeh","Tarja","Adriel","MJ"];
+
+
+var ri = Math.floor(Math.random() * amin.length);
+var msg = amin[ri]
+
+$('#msg').html(msg + icon)
+
+
+console.log(amin[ri])
+
